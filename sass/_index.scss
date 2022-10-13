@@ -1,0 +1,46 @@
+footer .footernav {
+
+    color: rgb(244, 12, 12);
+    display: flex;
+    flex-direction: row;
+    padding: 10px;
+    justify-content: space-between;
+    text-decoration: none;
+    list-style: none;
+    text-decoration: solid;
+}
+
+strong {
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+}
+
+.ul-main {
+    text-decoration: solid;
+    font-size: large;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+
+.nav__item {
+    text-decoration: none;
+    --clippy: polygon(0 0, 0 0, 0 100%, 0% 100%);
+}
+
+.nav__item:after {
+    content: "";
+    display: block;
+    background: rgb(222, 20, 185);
+    width: 90%;
+    margin-top: 3px;
+    height: 3px;
+    clip-path: var(--clippy);
+    transition: clip-path .5s;
+}
+
+.nav__item:hover {
+    --clippy: polygon(100% 0, 0 0, 0 100%, 100% 100%);
+}

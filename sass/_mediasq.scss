@@ -1,0 +1,32 @@
+
+@media screen and (max-width: 600px) {
+    .contenedor {
+        grid-template-areas: "header header header"
+            "contenido contenido contenido"
+            "sidebar sidebar sidebar"
+            "widget-1 widget-1 widget-1"
+            "widget-2 widget-2 widget-2"
+            "footer footer footer";
+    }
+
+}
+
+@media screen and (max-width: 700px) {
+    .contenedor {
+        grid-template-areas:
+            "header"
+            "contenido" "sidebar"
+            "widget-1"
+            "widget-2"
+            "footer"
+        ;
+    }
+
+    .asidepics {
+        max-width: 100px;
+    }
+
+
+
+
+}
