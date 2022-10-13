@@ -1,3 +1,3 @@
-# segundaentregaImpagliazzo
-segunda pre-entrega
-    el bootstrap se encuentra en la parte de CONTACTO
+# tercera pre-entrega Impagliazzo
+ 
+ se entrega y se corrige hasta donde se pudo realizar debido a la falta de tiempo entre correciones
